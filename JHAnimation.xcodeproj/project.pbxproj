@@ -15,6 +15,23 @@
 		8454269D1E5567CC000F481D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454269B1E5567CC000F481D /* LaunchScreen.storyboard */; };
 		845426A81E5567CD000F481D /* JHAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426A71E5567CD000F481D /* JHAnimationTests.m */; };
 		845426B31E5567CD000F481D /* JHAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426B21E5567CD000F481D /* JHAnimationUITests.m */; };
+		845426C41E556ABA000F481D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426C21E556ABA000F481D /* FirstViewController.m */; };
+		845426C51E556ABA000F481D /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845426C31E556ABA000F481D /* FirstViewController.xib */; };
+		845426C91E556AC7000F481D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426C71E556AC7000F481D /* SecondViewController.m */; };
+		845426CA1E556AC7000F481D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845426C81E556AC7000F481D /* SecondViewController.xib */; };
+		845426D31E556D04000F481D /* 28_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845426CC1E556D04000F481D /* 28_01.jpg */; };
+		845426D41E556D04000F481D /* 28_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845426CD1E556D04000F481D /* 28_02.jpg */; };
+		845426D51E556D04000F481D /* 28_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845426CE1E556D04000F481D /* 28_03.jpg */; };
+		845426D61E556D04000F481D /* 28_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845426CF1E556D04000F481D /* 28_04.jpg */; };
+		845426D71E556D04000F481D /* 28_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845426D01E556D04000F481D /* 28_05.jpg */; };
+		845426D81E556D04000F481D /* 28_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845426D11E556D04000F481D /* 28_06.jpg */; };
+		845426D91E556D04000F481D /* 28_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845426D21E556D04000F481D /* 28_07.jpg */; };
+		845426DC1E55A623000F481D /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 845426DB1E55A623000F481D /* heart.png */; };
+		845426E01E55AA61000F481D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426DE1E55AA61000F481D /* ThirdViewController.m */; };
+		845426E11E55AA61000F481D /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845426DF1E55AA61000F481D /* ThirdViewController.xib */; };
+		845426E41E55AC5A000F481D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845426E31E55AC5A000F481D /* QuartzCore.framework */; };
+		845426E61E55AC67000F481D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845426E51E55AC67000F481D /* OpenGLES.framework */; };
+		845426E81E55AC78000F481D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845426E71E55AC78000F481D /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,27 @@
 		845426AE1E5567CD000F481D /* JHAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845426B21E5567CD000F481D /* JHAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAnimationUITests.m; sourceTree = "<group>"; };
 		845426B41E5567CD000F481D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845426C11E556ABA000F481D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		845426C21E556ABA000F481D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		845426C31E556ABA000F481D /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		845426C61E556AC7000F481D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		845426C71E556AC7000F481D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		845426C81E556AC7000F481D /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		845426CC1E556D04000F481D /* 28_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28_01.jpg; sourceTree = "<group>"; };
+		845426CD1E556D04000F481D /* 28_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28_02.jpg; sourceTree = "<group>"; };
+		845426CE1E556D04000F481D /* 28_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28_03.jpg; sourceTree = "<group>"; };
+		845426CF1E556D04000F481D /* 28_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28_04.jpg; sourceTree = "<group>"; };
+		845426D01E556D04000F481D /* 28_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28_05.jpg; sourceTree = "<group>"; };
+		845426D11E556D04000F481D /* 28_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28_06.jpg; sourceTree = "<group>"; };
+		845426D21E556D04000F481D /* 28_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28_07.jpg; sourceTree = "<group>"; };
+		845426DA1E556D76000F481D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		845426DB1E55A623000F481D /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		845426DD1E55AA61000F481D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		845426DE1E55AA61000F481D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		845426DF1E55AA61000F481D /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		845426E31E55AC5A000F481D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		845426E51E55AC67000F481D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		845426E71E55AC78000F481D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845426E81E55AC78000F481D /* CoreGraphics.framework in Frameworks */,
+				845426E61E55AC67000F481D /* OpenGLES.framework in Frameworks */,
+				845426E41E55AC5A000F481D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +126,7 @@
 				845426A61E5567CD000F481D /* JHAnimationTests */,
 				845426B11E5567CD000F481D /* JHAnimationUITests */,
 				8454268B1E5567CC000F481D /* Products */,
+				845426E21E55AC5A000F481D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,8 @@
 		8454268C1E5567CC000F481D /* JHAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				845426CB1E556B61000F481D /* Images */,
+				845426C01E556A8E000F481D /* ViewControllers */,
 				845426901E5567CC000F481D /* AppDelegate.h */,
 				845426911E5567CC000F481D /* AppDelegate.m */,
 				845426931E5567CC000F481D /* ViewController.h */,
@@ -109,6 +153,7 @@
 				845426991E5567CC000F481D /* Assets.xcassets */,
 				8454269B1E5567CC000F481D /* LaunchScreen.storyboard */,
 				8454269E1E5567CC000F481D /* Info.plist */,
+				845426DA1E556D76000F481D /* PrefixHeader.pch */,
 				8454268D1E5567CC000F481D /* Supporting Files */,
 			);
 			path = JHAnimation;
@@ -138,6 +183,47 @@
 				845426B41E5567CD000F481D /* Info.plist */,
 			);
 			path = JHAnimationUITests;
+			sourceTree = "<group>";
+		};
+		845426C01E556A8E000F481D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				845426C11E556ABA000F481D /* FirstViewController.h */,
+				845426C21E556ABA000F481D /* FirstViewController.m */,
+				845426C31E556ABA000F481D /* FirstViewController.xib */,
+				845426C61E556AC7000F481D /* SecondViewController.h */,
+				845426C71E556AC7000F481D /* SecondViewController.m */,
+				845426C81E556AC7000F481D /* SecondViewController.xib */,
+				845426DD1E55AA61000F481D /* ThirdViewController.h */,
+				845426DE1E55AA61000F481D /* ThirdViewController.m */,
+				845426DF1E55AA61000F481D /* ThirdViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		845426CB1E556B61000F481D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				845426DB1E55A623000F481D /* heart.png */,
+				845426CC1E556D04000F481D /* 28_01.jpg */,
+				845426CD1E556D04000F481D /* 28_02.jpg */,
+				845426CE1E556D04000F481D /* 28_03.jpg */,
+				845426CF1E556D04000F481D /* 28_04.jpg */,
+				845426D01E556D04000F481D /* 28_05.jpg */,
+				845426D11E556D04000F481D /* 28_06.jpg */,
+				845426D21E556D04000F481D /* 28_07.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		845426E21E55AC5A000F481D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845426E71E55AC78000F481D /* CoreGraphics.framework */,
+				845426E51E55AC67000F481D /* OpenGLES.framework */,
+				845426E31E55AC5A000F481D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +335,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845426E11E55AA61000F481D /* ThirdViewController.xib in Resources */,
 				8454269D1E5567CC000F481D /* LaunchScreen.storyboard in Resources */,
 				8454269A1E5567CC000F481D /* Assets.xcassets in Resources */,
+				845426D71E556D04000F481D /* 28_05.jpg in Resources */,
 				845426981E5567CC000F481D /* Main.storyboard in Resources */,
+				845426D91E556D04000F481D /* 28_07.jpg in Resources */,
+				845426C51E556ABA000F481D /* FirstViewController.xib in Resources */,
+				845426D61E556D04000F481D /* 28_04.jpg in Resources */,
+				845426DC1E55A623000F481D /* heart.png in Resources */,
+				845426D51E556D04000F481D /* 28_03.jpg in Resources */,
+				845426D31E556D04000F481D /* 28_01.jpg in Resources */,
+				845426D81E556D04000F481D /* 28_06.jpg in Resources */,
+				845426CA1E556AC7000F481D /* SecondViewController.xib in Resources */,
+				845426D41E556D04000F481D /* 28_02.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +373,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845426C91E556AC7000F481D /* SecondViewController.m in Sources */,
 				845426951E5567CC000F481D /* ViewController.m in Sources */,
+				845426E01E55AA61000F481D /* ThirdViewController.m in Sources */,
 				845426921E5567CC000F481D /* AppDelegate.m in Sources */,
 				8454268F1E5567CC000F481D /* main.m in Sources */,
+				845426C41E556ABA000F481D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +528,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JHAnimation/PrefixHeader.pch";
 				INFOPLIST_FILE = JHAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.antrice.JHAnimation;
@@ -440,6 +542,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JHAnimation/PrefixHeader.pch";
 				INFOPLIST_FILE = JHAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.antrice.JHAnimation;

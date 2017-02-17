@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  JHAnimation
+//
+//  Created by admin on 2017/2/16.
+//  Copyright © 2017年 admin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//设置屏幕
+#define JHScreenW [UIScreen mainScreen].bounds.size.width
+#define JHScreenH [UIScreen mainScreen].bounds.size.height
+#endif /* PrefixHeader_pch */
