@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313560399B783CC09634A96F /* libPods-JHAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D123EA5812C10A1384B7B312 /* libPods-JHAnimation.a */; };
+		6FE9B226825B3B40BA7248CC /* libPods-JHAnimationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD917A66C75E3A296F6A7F /* libPods-JHAnimationUITests.a */; };
 		8454268F1E5567CC000F481D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454268E1E5567CC000F481D /* main.m */; };
 		845426921E5567CC000F481D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426911E5567CC000F481D /* AppDelegate.m */; };
 		845426951E5567CC000F481D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426941E5567CC000F481D /* ViewController.m */; };
@@ -32,6 +34,10 @@
 		845426E41E55AC5A000F481D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845426E31E55AC5A000F481D /* QuartzCore.framework */; };
 		845426E61E55AC67000F481D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845426E51E55AC67000F481D /* OpenGLES.framework */; };
 		845426E81E55AC78000F481D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845426E71E55AC78000F481D /* CoreGraphics.framework */; };
+		845427361E56D1BB000F481D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845427341E56D1BB000F481D /* FourthViewController.m */; };
+		845427371E56D1BB000F481D /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845427351E56D1BB000F481D /* FourthViewController.xib */; };
+		845427781E56F6A1000F481D /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 845427771E56F6A1000F481D /* ghost.png */; };
+		86AA18AE6A79BB375110FA2D /* libPods-JHAnimationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FE8D7943BD07FD6282800D /* libPods-JHAnimationTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29FE8D7943BD07FD6282800D /* libPods-JHAnimationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHAnimationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA4418B5FF6B32DB9BE5C4E /* Pods-JHAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimationUITests/Pods-JHAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CAD917A66C75E3A296F6A7F /* libPods-JHAnimationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHAnimationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7938481C9BEC53794BCA32DB /* Pods-JHAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimation/Pods-JHAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		7A93D656CB34009E77F18E48 /* Pods-JHAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimation/Pods-JHAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		8454268A1E5567CC000F481D /* JHAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8454268E1E5567CC000F481D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		845426901E5567CC000F481D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +100,14 @@
 		845426E31E55AC5A000F481D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		845426E51E55AC67000F481D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		845426E71E55AC78000F481D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		845427331E56D1BB000F481D /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		845427341E56D1BB000F481D /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		845427351E56D1BB000F481D /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		845427771E56F6A1000F481D /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		895E629A24C585D7E9CCC7F7 /* Pods-JHAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimationTests/Pods-JHAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		89AD31C8729304062009AF04 /* Pods-JHAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimationTests/Pods-JHAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D123EA5812C10A1384B7B312 /* libPods-JHAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF6A4F0BDBA0D3A0083AF3 /* Pods-JHAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimationUITests/Pods-JHAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +118,7 @@
 				845426E81E55AC78000F481D /* CoreGraphics.framework in Frameworks */,
 				845426E61E55AC67000F481D /* OpenGLES.framework in Frameworks */,
 				845426E41E55AC5A000F481D /* QuartzCore.framework in Frameworks */,
+				313560399B783CC09634A96F /* libPods-JHAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AA18AE6A79BB375110FA2D /* libPods-JHAnimationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE9B226825B3B40BA7248CC /* libPods-JHAnimationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +149,7 @@
 				845426B11E5567CD000F481D /* JHAnimationUITests */,
 				8454268B1E5567CC000F481D /* Products */,
 				845426E21E55AC5A000F481D /* Frameworks */,
+				95CCCDE69E3840F90CE7D7C6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +220,9 @@
 				845426DD1E55AA61000F481D /* ThirdViewController.h */,
 				845426DE1E55AA61000F481D /* ThirdViewController.m */,
 				845426DF1E55AA61000F481D /* ThirdViewController.xib */,
+				845427331E56D1BB000F481D /* FourthViewController.h */,
+				845427341E56D1BB000F481D /* FourthViewController.m */,
+				845427351E56D1BB000F481D /* FourthViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -212,6 +238,7 @@
 				845426D01E556D04000F481D /* 28_05.jpg */,
 				845426D11E556D04000F481D /* 28_06.jpg */,
 				845426D21E556D04000F481D /* 28_07.jpg */,
+				845427771E56F6A1000F481D /* ghost.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -222,8 +249,24 @@
 				845426E71E55AC78000F481D /* CoreGraphics.framework */,
 				845426E51E55AC67000F481D /* OpenGLES.framework */,
 				845426E31E55AC5A000F481D /* QuartzCore.framework */,
+				D123EA5812C10A1384B7B312 /* libPods-JHAnimation.a */,
+				29FE8D7943BD07FD6282800D /* libPods-JHAnimationTests.a */,
+				2CAD917A66C75E3A296F6A7F /* libPods-JHAnimationUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CCCDE69E3840F90CE7D7C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A93D656CB34009E77F18E48 /* Pods-JHAnimation.debug.xcconfig */,
+				7938481C9BEC53794BCA32DB /* Pods-JHAnimation.release.xcconfig */,
+				89AD31C8729304062009AF04 /* Pods-JHAnimationTests.debug.xcconfig */,
+				895E629A24C585D7E9CCC7F7 /* Pods-JHAnimationTests.release.xcconfig */,
+				E2AF6A4F0BDBA0D3A0083AF3 /* Pods-JHAnimationUITests.debug.xcconfig */,
+				2BA4418B5FF6B32DB9BE5C4E /* Pods-JHAnimationUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845426B71E5567CD000F481D /* Build configuration list for PBXNativeTarget "JHAnimation" */;
 			buildPhases = (
+				8FAF12875DEA73558D08CADB /* [CP] Check Pods Manifest.lock */,
 				845426861E5567CC000F481D /* Sources */,
 				845426871E5567CC000F481D /* Frameworks */,
 				845426881E5567CC000F481D /* Resources */,
+				4002F48BC282DA21C19CDFC9 /* [CP] Embed Pods Frameworks */,
+				91B1E668298B62F1F2B0A4DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845426BA1E5567CD000F481D /* Build configuration list for PBXNativeTarget "JHAnimationTests" */;
 			buildPhases = (
+				7917817492EDFE81EAA0F318 /* [CP] Check Pods Manifest.lock */,
 				8454269F1E5567CD000F481D /* Sources */,
 				845426A01E5567CD000F481D /* Frameworks */,
 				845426A11E5567CD000F481D /* Resources */,
+				1459B476E9106790AE01D017 /* [CP] Embed Pods Frameworks */,
+				452214CA69699D4F451D5AF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845426BD1E5567CD000F481D /* Build configuration list for PBXNativeTarget "JHAnimationUITests" */;
 			buildPhases = (
+				D1B5B45B726659B61823BE4A /* [CP] Check Pods Manifest.lock */,
 				845426AA1E5567CD000F481D /* Sources */,
 				845426AB1E5567CD000F481D /* Frameworks */,
 				845426AC1E5567CD000F481D /* Resources */,
+				F6251C94466EE4D20E2B24FD /* [CP] Embed Pods Frameworks */,
+				FE79301DF521ABA6EFD73E35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,12 +388,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				845426E11E55AA61000F481D /* ThirdViewController.xib in Resources */,
+				845427781E56F6A1000F481D /* ghost.png in Resources */,
 				8454269D1E5567CC000F481D /* LaunchScreen.storyboard in Resources */,
 				8454269A1E5567CC000F481D /* Assets.xcassets in Resources */,
 				845426D71E556D04000F481D /* 28_05.jpg in Resources */,
 				845426981E5567CC000F481D /* Main.storyboard in Resources */,
 				845426D91E556D04000F481D /* 28_07.jpg in Resources */,
 				845426C51E556ABA000F481D /* FirstViewController.xib in Resources */,
+				845427371E56D1BB000F481D /* FourthViewController.xib in Resources */,
 				845426D61E556D04000F481D /* 28_04.jpg in Resources */,
 				845426DC1E55A623000F481D /* heart.png in Resources */,
 				845426D51E556D04000F481D /* 28_03.jpg in Resources */,
@@ -368,6 +422,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1459B476E9106790AE01D017 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAnimationTests/Pods-JHAnimationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4002F48BC282DA21C19CDFC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAnimation/Pods-JHAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452214CA69699D4F451D5AF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAnimationTests/Pods-JHAnimationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7917817492EDFE81EAA0F318 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FAF12875DEA73558D08CADB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91B1E668298B62F1F2B0A4DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAnimation/Pods-JHAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B5B45B726659B61823BE4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6251C94466EE4D20E2B24FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAnimationUITests/Pods-JHAnimationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE79301DF521ABA6EFD73E35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAnimationUITests/Pods-JHAnimationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		845426861E5567CC000F481D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -378,6 +570,7 @@
 				845426E01E55AA61000F481D /* ThirdViewController.m in Sources */,
 				845426921E5567CC000F481D /* AppDelegate.m in Sources */,
 				8454268F1E5567CC000F481D /* main.m in Sources */,
+				845427361E56D1BB000F481D /* FourthViewController.m in Sources */,
 				845426C41E556ABA000F481D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,12 +718,14 @@
 		};
 		845426B81E5567CD000F481D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A93D656CB34009E77F18E48 /* Pods-JHAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JHAnimation/PrefixHeader.pch";
 				INFOPLIST_FILE = JHAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.antrice.JHAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,12 +734,14 @@
 		};
 		845426B91E5567CD000F481D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7938481C9BEC53794BCA32DB /* Pods-JHAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JHAnimation/PrefixHeader.pch";
 				INFOPLIST_FILE = JHAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.antrice.JHAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,6 +750,7 @@
 		};
 		845426BB1E5567CD000F481D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AD31C8729304062009AF04 /* Pods-JHAnimationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
@@ -566,6 +764,7 @@
 		};
 		845426BC1E5567CD000F481D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895E629A24C585D7E9CCC7F7 /* Pods-JHAnimationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
@@ -579,6 +778,7 @@
 		};
 		845426BE1E5567CD000F481D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AF6A4F0BDBA0D3A0083AF3 /* Pods-JHAnimationUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
 				INFOPLIST_FILE = JHAnimationUITests/Info.plist;
@@ -591,6 +791,7 @@
 		};
 		845426BF1E5567CD000F481D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA4418B5FF6B32DB9BE5C4E /* Pods-JHAnimationUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QDC3KV7D2U;
 				INFOPLIST_FILE = JHAnimationUITests/Info.plist;
@@ -620,6 +821,7 @@
 				845426B91E5567CD000F481D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845426BA1E5567CD000F481D /* Build configuration list for PBXNativeTarget "JHAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -628,6 +830,7 @@
 				845426BC1E5567CD000F481D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845426BD1E5567CD000F481D /* Build configuration list for PBXNativeTarget "JHAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -636,6 +839,7 @@
 				845426BF1E5567CD000F481D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

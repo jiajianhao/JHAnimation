@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
- 
+#import "ThirdViewController.h"
 @interface ViewController ()
 @property(nonatomic,strong)UIImageView* mImgView;
 @property(nonatomic,strong)NSMutableArray*arrImage;
@@ -51,13 +51,19 @@
     
     
     UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button2 setFrame:CGRectMake(150, self.mImgView.frame.origin.y+self.mImgView.frame.size.height+20, 100, 50)];
+    [button2 setFrame:CGRectMake(110, self.mImgView.frame.origin.y+self.mImgView.frame.size.height+20, 100, 50)];
     [button2 addTarget:self action:@selector(pressButton:) forControlEvents:UIControlEventTouchUpInside];
     [button2 setBackgroundColor:[UIColor yellowColor]];
     button2.tag=2;
     [self.view addSubview:button2];
     
-    
+    UIButton *button3 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button3 setFrame:CGRectMake(220, self.mImgView.frame.origin.y+self.mImgView.frame.size.height+20, 100, 50)];
+    [button3 addTarget:self action:@selector(pressButton:) forControlEvents:UIControlEventTouchUpInside];
+    [button3 setBackgroundColor:[UIColor purpleColor]];
+    button3.tag=3;
+    [self.view addSubview:button3];
+
    
     
 }
@@ -95,7 +101,24 @@
         [self.navigationController pushViewController:sec animated:YES];
 
     }
+    if (sender.tag==3) {
+        CATransition *amin = [[CATransition alloc]init];
+        amin.duration=1;
+        amin.type=@"rippleEffect";
+        amin.subtype=kCATransitionFromRight;
+        //    amin.speed=1;
+        amin.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+        
+        [self.navigationController.view.layer addAnimation:amin forKey:nil];
+        
+        ThirdViewController *sec =[[ThirdViewController alloc]init];
+        
+        [self.navigationController pushViewController:sec animated:YES];
+        
     }
+
+ 
+}
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     NSLog(@"*********");
