@@ -37,6 +37,8 @@
 		845427361E56D1BB000F481D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845427341E56D1BB000F481D /* FourthViewController.m */; };
 		845427371E56D1BB000F481D /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845427351E56D1BB000F481D /* FourthViewController.xib */; };
 		845427781E56F6A1000F481D /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 845427771E56F6A1000F481D /* ghost.png */; };
+		84E68E6D1E5C273C00A2B1D6 /* KeyframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E68E6B1E5C273C00A2B1D6 /* KeyframeViewController.m */; };
+		84E68E6E1E5C273C00A2B1D6 /* KeyframeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E68E6C1E5C273C00A2B1D6 /* KeyframeViewController.xib */; };
 		86AA18AE6A79BB375110FA2D /* libPods-JHAnimationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FE8D7943BD07FD6282800D /* libPods-JHAnimationTests.a */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +106,9 @@
 		845427341E56D1BB000F481D /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		845427351E56D1BB000F481D /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		845427771E56F6A1000F481D /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		84E68E6A1E5C273C00A2B1D6 /* KeyframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeViewController.h; sourceTree = "<group>"; };
+		84E68E6B1E5C273C00A2B1D6 /* KeyframeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeViewController.m; sourceTree = "<group>"; };
+		84E68E6C1E5C273C00A2B1D6 /* KeyframeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyframeViewController.xib; sourceTree = "<group>"; };
 		895E629A24C585D7E9CCC7F7 /* Pods-JHAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimationTests/Pods-JHAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
 		89AD31C8729304062009AF04 /* Pods-JHAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimationTests/Pods-JHAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D123EA5812C10A1384B7B312 /* libPods-JHAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,6 +228,9 @@
 				845427331E56D1BB000F481D /* FourthViewController.h */,
 				845427341E56D1BB000F481D /* FourthViewController.m */,
 				845427351E56D1BB000F481D /* FourthViewController.xib */,
+				84E68E6A1E5C273C00A2B1D6 /* KeyframeViewController.h */,
+				84E68E6B1E5C273C00A2B1D6 /* KeyframeViewController.m */,
+				84E68E6C1E5C273C00A2B1D6 /* KeyframeViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -400,6 +408,7 @@
 				845426DC1E55A623000F481D /* heart.png in Resources */,
 				845426D51E556D04000F481D /* 28_03.jpg in Resources */,
 				845426D31E556D04000F481D /* 28_01.jpg in Resources */,
+				84E68E6E1E5C273C00A2B1D6 /* KeyframeViewController.xib in Resources */,
 				845426D81E556D04000F481D /* 28_06.jpg in Resources */,
 				845426CA1E556AC7000F481D /* SecondViewController.xib in Resources */,
 				845426D41E556D04000F481D /* 28_02.jpg in Resources */,
@@ -571,6 +580,7 @@
 				845426921E5567CC000F481D /* AppDelegate.m in Sources */,
 				8454268F1E5567CC000F481D /* main.m in Sources */,
 				845427361E56D1BB000F481D /* FourthViewController.m in Sources */,
+				84E68E6D1E5C273C00A2B1D6 /* KeyframeViewController.m in Sources */,
 				845426C41E556ABA000F481D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
