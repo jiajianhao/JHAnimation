@@ -32,27 +32,7 @@
         NSLog(@"%@",str);
         [_arrImage addObject:str];
     }
-    for (int i=1; i<8; i++) {
-        NSString *str =[NSString stringWithFormat:@"28_%02d.jpg",i];
-        NSLog(@"%@",str);
-        [_arrImage addObject:str];
-    }
-    for (int i=1; i<8; i++) {
-        NSString *str =[NSString stringWithFormat:@"28_%02d.jpg",i];
-        NSLog(@"%@",str);
-        [_arrImage addObject:str];
-    }
-    for (int i=1; i<8; i++) {
-        NSString *str =[NSString stringWithFormat:@"28_%02d.jpg",i];
-        NSLog(@"%@",str);
-        [_arrImage addObject:str];
-    }
-    for (int i=1; i<8; i++) {
-        NSString *str =[NSString stringWithFormat:@"28_%02d.jpg",i];
-        NSLog(@"%@",str);
-        [_arrImage addObject:str];
-    }
-    
+       
     [self addSubviews];
     
     
@@ -73,7 +53,7 @@
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    int chooseNum = arc4random_uniform(3);
+    int chooseNum = arc4random_uniform(4);
     NSLog(@"%d",chooseNum);
     if (chooseNum==0) {
         [self myKeyFrameAnimationByValue];
@@ -184,6 +164,7 @@
     }
     
     animation.values = array;
+    animation.repeatCount=MAXFLOAT;
     
     [imageView01.layer addAnimation:animation forKey:nil];
     
@@ -192,12 +173,12 @@
 -(void)myKeyFrameAnimationByPathRotation{
     
     CAKeyframeAnimation *keyAnim = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
-    CATransform3D rotation1 = CATransform3DMakeRotation(30 * M_PI/180, 0, 0, -1);
-    CATransform3D rotation2 = CATransform3DMakeRotation(60 * M_PI/180, 0, 0, -1);
-    CATransform3D rotation3 = CATransform3DMakeRotation(90 * M_PI/180, 0, 0, -1);
-    CATransform3D rotation4 = CATransform3DMakeRotation(120 * M_PI/180, 0, 0, -1);
-    CATransform3D rotation5 = CATransform3DMakeRotation(150 * M_PI/180, 0, 0, -1);
-    CATransform3D rotation6 = CATransform3DMakeRotation(180 * M_PI/180, 0, 0, -1);
+    CATransform3D rotation1 = CATransform3DMakeRotation(30 * M_PI/180, -1, 0, 0);
+    CATransform3D rotation2 = CATransform3DMakeRotation(60 * M_PI/180, -1, 0, 0);
+    CATransform3D rotation3 = CATransform3DMakeRotation(90 * M_PI/180, -1, 0, 0);
+    CATransform3D rotation4 = CATransform3DMakeRotation(120 * M_PI/180, -1, 0, 0);
+    CATransform3D rotation5 = CATransform3DMakeRotation(150 * M_PI/180, -1, 0, 0);
+    CATransform3D rotation6 = CATransform3DMakeRotation(180 * M_PI/180, -1, 0, 0);
     
     [keyAnim setValues:[NSArray arrayWithObjects: [NSValue valueWithCATransform3D:rotation1],
                         [NSValue valueWithCATransform3D:rotation2],
@@ -217,6 +198,7 @@
     [keyAnim setDuration:4];
     [keyAnim setFillMode:kCAFillModeForwards];
     [keyAnim setRemovedOnCompletion:NO];
+    keyAnim.repeatCount=MAXFLOAT;
     [imageView01.layer addAnimation:keyAnim forKey:nil];
 }
 
