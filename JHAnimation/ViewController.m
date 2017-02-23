@@ -205,17 +205,7 @@
         
         
     }
-    
-    UIDynamicAnimator* animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
-    UICollisionBehavior* collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[self.square1]];
-    
-    collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
-    [animator addBehavior:collisionBehavior];
-    
-    UIGravityBehavior *g = [[UIGravityBehavior alloc] initWithItems:@[self.square1]];
-    [animator addBehavior:g];
-    
-    self.animator = animator;
+
 
  
 }
