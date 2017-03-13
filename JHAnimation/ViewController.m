@@ -14,6 +14,7 @@
 #import "KeyframeViewController.h"
 #import "UIKitDynamicsViewController.h"
 #import "UIButton+RestorationID.h"
+#import "SnowViewController.h"
 @interface ViewController ()
 @property(nonatomic,strong)UIImageView* mImgView;
 @property(nonatomic,strong)NSMutableArray*arrImage;
@@ -107,6 +108,16 @@
     button6.restorationID=@"button6";
     [self.view addSubview:button6];
     
+    
+    UIButton *button7 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button7 setFrame:CGRectMake(60, self.mImgView.frame.origin.y+self.mImgView.frame.size.height+20+60, 50, 50)];
+    [button7 addTarget:self action:@selector(pressButton:) forControlEvents:UIControlEventTouchUpInside];
+    [button7 setBackgroundColor:[UIColor blackColor]];
+    button7.tag=7;
+    [button7 setTitle:@"SecVC" forState:UIControlStateNormal];
+    button7.titleLabel.font=[UIFont systemFontOfSize:10];
+    button7.restorationID=@"button7";
+    [self.view addSubview:button7];
 }
 
 
@@ -206,6 +217,22 @@
         
     }
 
+    if (sender.tag==7) {
+        CATransition *amin = [[CATransition alloc]init];
+        amin.duration=1;
+        amin.type=@"rippleEffect";
+        amin.subtype=kCATransitionFromRight;
+        //    amin.speed=1;
+        amin.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+        
+        [self.navigationController.view.layer addAnimation:amin forKey:nil];
+        
+        SnowViewController *sec =[[SnowViewController alloc]init];
+        
+        [self.navigationController pushViewController:sec animated:YES];
+        
+        
+    }
 
  
 }

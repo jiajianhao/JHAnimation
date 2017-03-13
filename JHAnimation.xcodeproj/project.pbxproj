@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		313560399B783CC09634A96F /* libPods-JHAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D123EA5812C10A1384B7B312 /* libPods-JHAnimation.a */; };
 		6FE9B226825B3B40BA7248CC /* libPods-JHAnimationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD917A66C75E3A296F6A7F /* libPods-JHAnimationUITests.a */; };
+		8418CC331E7636810082F911 /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418CC311E7636810082F911 /* SnowViewController.m */; };
+		8418CC341E7636810082F911 /* SnowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8418CC321E7636810082F911 /* SnowViewController.xib */; };
+		8418CC371E7639D30082F911 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8418CC351E7639D30082F911 /* snow.png */; };
+		8418CC381E7639D30082F911 /* snow01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8418CC361E7639D30082F911 /* snow01.png */; };
 		8454268F1E5567CC000F481D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454268E1E5567CC000F481D /* main.m */; };
 		845426921E5567CC000F481D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426911E5567CC000F481D /* AppDelegate.m */; };
 		845426951E5567CC000F481D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845426941E5567CC000F481D /* ViewController.m */; };
@@ -68,6 +72,11 @@
 		2CAD917A66C75E3A296F6A7F /* libPods-JHAnimationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHAnimationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7938481C9BEC53794BCA32DB /* Pods-JHAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimation/Pods-JHAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		7A93D656CB34009E77F18E48 /* Pods-JHAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHAnimation/Pods-JHAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		8418CC301E7636810082F911 /* SnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		8418CC311E7636810082F911 /* SnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+		8418CC321E7636810082F911 /* SnowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnowViewController.xib; sourceTree = "<group>"; };
+		8418CC351E7639D30082F911 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		8418CC361E7639D30082F911 /* snow01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow01.png; sourceTree = "<group>"; };
 		8454268A1E5567CC000F481D /* JHAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8454268E1E5567CC000F481D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		845426901E5567CC000F481D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -243,6 +252,9 @@
 				84E68E6F1E5D29F100A2B1D6 /* UIKitDynamicsViewController.h */,
 				84E68E701E5D29F100A2B1D6 /* UIKitDynamicsViewController.m */,
 				84E68E711E5D29F100A2B1D6 /* UIKitDynamicsViewController.xib */,
+				8418CC301E7636810082F911 /* SnowViewController.h */,
+				8418CC311E7636810082F911 /* SnowViewController.m */,
+				8418CC321E7636810082F911 /* SnowViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -250,6 +262,8 @@
 		845426CB1E556B61000F481D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8418CC351E7639D30082F911 /* snow.png */,
+				8418CC361E7639D30082F911 /* snow01.png */,
 				845426DB1E55A623000F481D /* heart.png */,
 				845426CC1E556D04000F481D /* 28_01.jpg */,
 				845426CD1E556D04000F481D /* 28_02.jpg */,
@@ -422,9 +436,11 @@
 				8454269A1E5567CC000F481D /* Assets.xcassets in Resources */,
 				845426D71E556D04000F481D /* 28_05.jpg in Resources */,
 				84E68E731E5D29F100A2B1D6 /* UIKitDynamicsViewController.xib in Resources */,
+				8418CC371E7639D30082F911 /* snow.png in Resources */,
 				845426981E5567CC000F481D /* Main.storyboard in Resources */,
 				845426D91E556D04000F481D /* 28_07.jpg in Resources */,
 				845426C51E556ABA000F481D /* FirstViewController.xib in Resources */,
+				8418CC341E7636810082F911 /* SnowViewController.xib in Resources */,
 				845427371E56D1BB000F481D /* FourthViewController.xib in Resources */,
 				845426D61E556D04000F481D /* 28_04.jpg in Resources */,
 				845426DC1E55A623000F481D /* heart.png in Resources */,
@@ -432,6 +448,7 @@
 				845426D31E556D04000F481D /* 28_01.jpg in Resources */,
 				84E68E6E1E5C273C00A2B1D6 /* KeyframeViewController.xib in Resources */,
 				845426D81E556D04000F481D /* 28_06.jpg in Resources */,
+				8418CC381E7639D30082F911 /* snow01.png in Resources */,
 				845426CA1E556AC7000F481D /* SecondViewController.xib in Resources */,
 				845426D41E556D04000F481D /* 28_02.jpg in Resources */,
 			);
@@ -599,6 +616,7 @@
 				845426C91E556AC7000F481D /* SecondViewController.m in Sources */,
 				84E68E771E5D6F5B00A2B1D6 /* UIButton+RestorationID.m in Sources */,
 				845426951E5567CC000F481D /* ViewController.m in Sources */,
+				8418CC331E7636810082F911 /* SnowViewController.m in Sources */,
 				845426E01E55AA61000F481D /* ThirdViewController.m in Sources */,
 				845426921E5567CC000F481D /* AppDelegate.m in Sources */,
 				8454268F1E5567CC000F481D /* main.m in Sources */,
